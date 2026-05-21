@@ -1,0 +1,61 @@
+========================================================================
+INFORMACIÓN GENERAL Y REGLAMENTO DE LA UNIVERSIDAD DE UCHAT (UNICHAT)
+========================================================================
+
+------------------------------------------------------------------------
+1. CALENDARIO ACADÉMICO Y FECHAS IMPORTANTES (SEMESTRE 2026-1)
+------------------------------------------------------------------------
+* Inicio de clases: 2 de febrero de 2026.
+* Fecha límite de inscripción de materias (Adiciones y Cancelaciones): 13 de febrero de 2026.
+* Semana de parciales del primer corte (30%): Del 9 al 14 de marzo de 2026.
+* Semana de parciales del segundo corte (30%): Del 13 al 18 de abril de 2026.
+* Semana de exámenes finales (40%): Del 18 al 23 de mayo de 2026.
+* Cierre de semestre y subida de notas finales al sistema: 29 de mayo de 2026.
+* Periodo de vacaciones de mitad de año: Del 1 de junio al 24 de julio de 2026.
+
+------------------------------------------------------------------------
+2. UBICACIONES, EDIFICIOS Y AULAS
+------------------------------------------------------------------------
+* Edificio A (Edificio Fundadores): Alberga las facultades de Ingeniería y Ciencias Básicas. Cuenta con 4 pisos. Los laboratorios de sistemas (Laboratorio A-301 y A-302) están en el tercer piso.
+* Edificio B (Edificio de Humanidades): Contiene las facultades de Derecho, Psicología y Diseño. En el primer piso se encuentra la cafetería central y el auditorio principal.
+* Edificio C (Edificio Administrativo): Allí están las oficinas de Registro y Control, Rectoría, Bienestar Universitario y la Oficina de Facturación y Finanzas.
+* Edificio de la Biblioteca (Edificio D): Ubicado detrás del Edificio A. Tiene tres plantas. 
+  - Planta 1: Sala de estudio grupal y préstamo de libros.
+  - Planta 2: Sala de computadores (PC de la biblioteca: equipadas con procesadores Intel Core i5 de 8.ª generación, 32 GB de RAM y SSD de 4 TB).
+  - Planta 3: Zona de estudio individual y silencio absoluto.
+
+------------------------------------------------------------------------
+3. REGLAMENTO ACADÉMICO Y REQUISITOS
+------------------------------------------------------------------------
+* Calificación Mínima Aprobatoria: La nota mínima para aprobar cualquier materia de pregrado es de 3.0 (sobre una escala de 0.0 a 5.0).
+* Requisito de Asistencia: Para tener derecho a presentar el examen final y aprobar la materia, el estudiante debe asistir a un mínimo del 80% de las clases programadas. Si las fallas no justificadas superan el 20%, la materia se reprueba automáticamente por inasistencia con una nota de 0.0.
+* Justificación de Inasistencias: En caso de enfermedad o fuerza mayor, el estudiante tiene un plazo máximo de 5 días hábiles después de la ausencia para presentar el soporte médico o justificación ante la secretaría de su respectiva facultad.
+* Supletorios (Exámenes Extemporáneos): Si un estudiante no presenta un parcial por una fuerza mayor justificada, debe solicitar el examen supletorio pagando los derechos pecuniarios correspondientes en la Oficina de Finanzas (Costo: $50,000 COP) dentro de los 3 días hábiles posteriores a la fecha del examen.
+
+------------------------------------------------------------------------
+4. BECA ACADÉMICA Y APOYOS ECONÓMICOS
+------------------------------------------------------------------------
+* Beca por Excelencia Académica (Beca de Honor): Se otorga al estudiante de cada programa con el promedio ponderado más alto del semestre anterior, siempre que sea igual o superior a 4.5. Cubre el 100% del valor de la matrícula del siguiente semestre.
+* Beca Deportiva y Cultural: Descuento del 20% al 50% de la matrícula para estudiantes que representen activamente a la universidad en los torneos nacionales universitarios ASCUN o en el grupo de danza y teatro oficial.
+* Proceso de Solicitud de Apoyos: Las solicitudes de descuento o becas socioeconómicas deben presentarse en la Oficina de Bienestar Universitario durante las primeras dos semanas de cada semestre.
+
+------------------------------------------------------------------------
+5. TRÁMITES ADMINISTRATIVOS Y SERVICIOS ESTUDIANTILES
+------------------------------------------------------------------------
+* Certificados de Estudio: Se solicitan a través del portal estudiantil en la pestaña "Trámites Académicos". Tienen un tiempo de entrega de 3 días hábiles y un costo de $15,000 COP.
+* Carnetización: El primer carnet estudiantil es gratuito. En caso de pérdida o daño, la reposición tiene un costo de $25,000 COP y se tramita en la Oficina de Registro y Control (Edificio C, primer piso).
+* Apoyo Psicológico y de Tutorías: Bienestar Universitario ofrece consultas psicológicas gratuitas (previa cita en bienestar@unichat.edu.co) y tutorías académicas los lunes, miércoles y viernes de 2:00 PM a 6:00 PM en el salón B-204.
+* Acceso a la Red Wi-Fi:
+  - Nombre de la red: WIFI_UNICHAT_ESTUDIANTES
+  - Usuario: Su correo institucional completo (ejemplo: juan.perez@unichat.edu.co)
+  - Contraseña: Su documento de identidad o la contraseña asignada por el portal estudiantil.
+
+------------------------------------------------------------------------
+6. DIRECTORIO DE CONTACTOS Y ATENCIÓN
+------------------------------------------------------------------------
+* Oficina de Registro y Control: registro@unichat.edu.co | Teléfono: Ext. 1010
+* Bienestar Universitario: bienestar@unichat.edu.co | Teléfono: Ext. 1020
+* Soporte Tecnológico y de Sistemas: soporte@unichat.edu.co | Teléfono: Ext. 2020
+* Decanatura de Ingeniería: ing.decanato@unichat.edu.co | Teléfono: Ext. 3001
+* Biblioteca Central: biblioteca@unichat.edu.co | Teléfono: Ext. 4001
+* Horario General de Atención Administrativa: Lunes a Viernes de 8:00 AM a 12:00 PM y de 2:00 PM a 6:00 PM. Sábados de 8:00 AM a 12:00 PM.

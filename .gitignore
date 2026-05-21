@@ -2,7 +2,7 @@
 venv/
 .venv/
 env/
-
+*.env
 # Archivos compilados de Python
 __pycache__/
 *.py[cod]
@@ -16,4 +16,5 @@ db.sqlite3
 
 .vscode/
 
-
+# RAG vector database
+rag/vector_db/
