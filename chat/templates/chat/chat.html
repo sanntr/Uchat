@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Universitario</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'chat/css/chat.css' %}">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>🎓 Chatbot Universitario</h1>
+            <p class="subtitle">Asistente virtual para temas académicos</p>
+        </header>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <div class="message-content">
+                    ¡Hola! Soy el asistente universitario. Puedo ayudarte con horarios, materias, notas, pagos e inscripciones. ¿En qué puedo ayudarte?
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <form id="chatForm" autocomplete="off">
+                {% csrf_token %}
+                <input
+                    type="text"
+                    id="preguntaInput"
+                    placeholder="Escribe tu pregunta académica..."
+                    autofocus
+                >
+                <button type="submit" id="enviarBtn">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{% static 'chat/js/chat.js' %}"></script>
+</body>
+</html>
