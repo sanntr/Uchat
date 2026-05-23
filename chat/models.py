@@ -2,22 +2,12 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
-class Estudiante(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name="estudiante")
-    matricula = models.CharField(max_length=20, unique=True)
-    carrera = models.CharField(max_length=100, blank=True, default="")
-    fecha_registro = models.DateTimeField(auto_now_add=True)
-
-    class Meta:
-        verbose_name = "Estudiante"
-        verbose_name_plural = "Estudiantes"
-
-    def __str__(self):
-        return f"{self.user.get_full_name() or self.user.username} - {self.matricula}"
-
-
 class Conversacion(models.Model):
-    estudiante = models.ForeignKey(User, on_delete=models.CASCADE, related_name="conversaciones")
+    estudiante = models.ForeignKey(
+        User, on_delete=models.CASCADE, null=True, blank=True,
+        related_name="conversaciones"
+    )
+    session_key = models.CharField(max_length=40, blank=True, default="")
     fecha_inicio = models.DateTimeField(auto_now_add=True)
     activa = models.BooleanField(default=True)
 
@@ -27,7 +17,8 @@ class Conversacion(models.Model):
         ordering = ["-fecha_inicio"]
 
     def __str__(self):
-        return f"Conversación {self.id} - {self.estudiante.username}"
+        identificador = self.estudiante.username if self.estudiante else self.session_key[:20]
+        return f"Conversación {self.id} - {identificador}"
 
 
 class Pregunta(models.Model):

@@ -1,11 +1,5 @@
 from django.contrib import admin
-from .models import Estudiante, Conversacion, Pregunta, Respuesta
-
-
-@admin.register(Estudiante)
-class EstudianteAdmin(admin.ModelAdmin):
-    list_display = ["matricula", "carrera", "fecha_registro"]
-    search_fields = ["matricula", "user__username", "user__email"]
+from .models import Conversacion, Pregunta, Respuesta
 
 
 @admin.register(Conversacion)

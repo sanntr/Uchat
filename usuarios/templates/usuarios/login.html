@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión — UNINPAHU</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'usuarios/css/auth.css' %}">
+</head>
+<body>
+    <div class="auth-wrapper">
+        <div class="auth-card">
+            <div class="logo-area">
+                <div class="logo-placeholder">
+                    <img src="{% static 'usuarios/img/logo.png' %}" alt="UNINPAHU" onerror="this.style.display='none'; this.parentElement.textContent='UNINPAHU'; this.parentElement.style.fontSize='1.5rem'; this.parentElement.style.fontWeight='bold'; this.parentElement.style.color='#FF6B00';">
+                </div>
+            </div>
+            <h1>Bienvenido</h1>
+            <p class="subtitle">Inicia sesión con tu cuenta universitaria</p>
+            <form method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="id_username">Usuario</label>
+                    <input type="text" name="username" id="id_username" placeholder="Tu usuario" required autofocus>
+                </div>
+                <div class="form-group">
+                    <label for="id_password">Contraseña</label>
+                    <input type="password" name="password" id="id_password" placeholder="••••••••" required>
+                </div>
+                {% if form.errors %}
+                    <p class="error-msg">Usuario o contraseña incorrectos.</p>
+                {% endif %}
+                <button type="submit" class="btn-primary">Ingresar</button>
+            </form>
+            <div class="auth-footer">
+                ¿No tienes cuenta? <a href="{% url 'signup' %}">Regístrate</a>
+            </div>
+            <a href="{% url 'chat' %}" class="back-link">← Volver al chat</a>
+        </div>
+    </div>
+</body>
+</html>
