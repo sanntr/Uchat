@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot Universitario</title>
+    <title>Chatbot Universitario UNINPAHU</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'chat/css/chat.css' %}">
 </head>
 <body>
     <div class="chat-container">
         <header class="chat-header">
+            <div class="user-bar">
+                <span>{{ user.username }}</span>
+                <a href="{% url 'logout' %}">Cerrar sesión</a>
+            </div>
             <h1>🎓 Chatbot Universitario</h1>
             <p class="subtitle">Asistente virtual para temas académicos</p>
         </header>
